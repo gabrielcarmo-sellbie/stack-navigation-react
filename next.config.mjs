@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+// set strict mode false to allow dynamic import
+const nextConfig = {
+  reactStrictMode: false
+};
 
 export default nextConfig;
